@@ -2,12 +2,12 @@
 
 A TCP-IP server client command line application using C
 
-## running the Server
+### running the Server
 
-g++ server.c -o server
-./server
+> g++ server.c -o server  
+> ./server
 
-## running the Server
+### running the Server
 
-g++ client.c -o client
-./client localhost 5001
+> g++ client.c -o client  
+> ./client localhost 5001

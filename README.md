@@ -7,7 +7,7 @@ A TCP-IP server client command line application using C
 > g++ server.c -o server  
 > ./server
 
-### running the Server
+### running the Client
 
 > g++ client.c -o client  
 > ./client localhost 5001

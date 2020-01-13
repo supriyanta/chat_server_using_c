@@ -55,6 +55,8 @@ int main(int argc, char *argv[])
   char buffer[256];
   // clearing buffer for sending data
   bzero(buffer, sizeof buffer);
+
+  printf("Enter message: ");
   // Taking input from user
   fgets(buffer, sizeof buffer, stdin);
 
